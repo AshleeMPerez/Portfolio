@@ -1,0 +1,231 @@
+country,CountryDSLabs,CountryWHO,RegionWHO,continent,region
+Afghanistan,Afghanistan,Afghanistan,Eastern Mediterranean,Asia,Central Asia
+Albania,Albania,Albania,European,Europe,Southern Europe
+Algeria,Algeria,Algeria,African,Africa,Northern Africa
+American Samoa,NA,NA,NA,NA,NA
+Andorra,Andorra,Andorra,European,Europe,Southern Europe
+Angola,Angola,Angola,African,Africa,Middle Africa
+Anguilla,NA,NA,NA,NA,NA
+Antigua and Barbuda,Antigua and Barbuda,Antigua and Barbuda,Americas,Americas,Caribbean
+Argentina,Argentina,Argentina,Americas,Americas,South America
+Armenia,Armenia,Armenia,European,Asia,Western Asia
+Aruba,Aruba,NA,NA,Americas,Caribbean
+Australia,Australia,Australia,Western Pacific,Oceania,Australia and New Zealand
+Austria,Austria,Austria,European,Europe,Western Europe
+Azerbaijan,Azerbaijan,Azerbaijan,European,Asia,Western Asia
+Bahamas,Bahamas,Bahamas,Americas,Americas,Caribbean
+Bahrain,Bahrain,Bahrain,Eastern Mediterranean,Asia,Western Asia
+Bangladesh,Bangladesh,Bangladesh,South-East Asia,Asia,Southern Asia
+Barbados,Barbados,Barbados,Americas,Americas,Caribbean
+Belarus,Belarus,Belarus,European,Europe,Eastern Europe
+Belgium,Belgium,Belgium,European,Europe,Western Europe
+Belize,Belize,Belize,Americas,Americas,Central America
+Benin,Benin,Benin,African,Africa,Western Africa
+Bermuda,NA,NA,NA,NA,NA
+Bhutan,Bhutan,Bhutan,South-East Asia,Asia,Southern Asia
+Bolivia,Bolivia,Bolivia,Americas,Americas,South America
+Bosnia and Herzegovina,Bosnia and Herzegovina,Bosnia and Herzegovina,European,Europe,Southern Europe
+Botswana,Botswana,Botswana,African,Africa,Southern Africa
+Brazil,Brazil,Brazil,Americas,Americas,South America
+British Virgin Islands,NA,NA,NA,Americas,Caribbean
+Brunei,Brunei,Brunei Darussalam,Western Pacific,Asia,South-Eastern Asia
+Bulgaria,Bulgaria,Bulgaria,European,Europe,Eastern Europe
+Burkina Faso,Burkina Faso,Burkina Faso,African,Africa,Western Africa
+Burundi,Burundi,Burundi,African,Africa,Eastern Africa
+Cambodia,Cambodia,Cambodia,Western Pacific,Asia,South-Eastern Asia
+Cameroon,Cameroon,Cameroon,African,Africa,Middle Africa
+Canada,Canada,Canada,Americas,Americas,Northern America
+Cape Verde,Cape Verde,Cabo Verde,African,Africa,Western Africa
+Cayman Islands,NA,NA,NA,NA,NA
+Central African Republic,Central African Republic,Central African Republic,African,Africa,Middle Africa
+Chad,Chad,Chad,African,Africa,Middle Africa
+Chile,Chile,Chile,Americas,Americas,South America
+China,China,China,Western Pacific,Asia,Eastern Asia
+Colombia,Colombia,Colombia,Americas,Americas,South America
+Comoros,Comoros,Comoros,African,Africa,Eastern Africa
+"Congo, Dem. Rep.","Congo, Dem. Rep.",Democratic Republic of the Congo,African,Africa,Middle Africa
+"Congo, Rep.","Congo, Rep.",Congo,African,Africa,Middle Africa
+Cook Is,Cook Islands,Cook Islands,Western Pacific,Oceania,Polynesia
+Costa Rica,Costa Rica,Costa Rica,Americas,Americas,Central America
+Cote d'Ivoire,Cote d'Ivoire,Cote d'Ivoire,African,Africa,Western Africa
+Croatia,Croatia,Croatia,European,Europe,Southern Europe
+Cuba,Cuba,Cuba,Americas,Americas,Caribbean
+Cyprus,Cyprus,Cyprus,European,Asia,Western Asia
+Czech Republic,Czech Republic,Czechia,European,Europe,Eastern Europe
+Denmark,Denmark,Denmark,European,Europe,Northern Europe
+Djibouti,Djibouti,Djibouti,Eastern Mediterranean,Africa,Eastern Africa
+Dominica,Dominica,Dominica,Americas,Americas,Caribbean
+Dominican Republic,Dominican Republic,Dominican Republic,Americas,Americas,Caribbean
+Ecuador,Ecuador,Ecuador,Americas,Americas,South America
+Egypt,Egypt,Egypt,Eastern Mediterranean,Africa,Northern Africa
+El Salvador,El Salvador,El Salvador,Americas,Americas,Central America
+Equatorial Guinea,Equatorial Guinea,Equatorial Guinea,African,Africa,Middle Africa
+Eritrea,Eritrea,Eritrea,African,Africa,Eastern Africa
+Estonia,Estonia,Estonia,European,Europe,Northern Europe
+Eswatini,Swaziland,Swaziland,African,Africa,Southern Africa
+Ethiopia,Ethiopia,Ethiopia,African,Africa,Eastern Africa
+Faeroe Islands,NA,NA,NA,NA,NA
+Falkland Is (Malvinas),NA,NA,NA,NA,NA
+Fiji,Fiji,Fiji,Western Pacific,Oceania,Melanesia
+Finland,Finland,Finland,European,Europe,Northern Europe
+France,France,France,European,Europe,Western Europe
+French Guiana,NA,NA,NA,NA,NA
+French Polynesia,NA,NA,NA,NA,NA
+Gabon,Gabon,Gabon,African,Africa,Middle Africa
+Gambia,Gambia,Gambia,African,Africa,Western Africa
+Georgia,Georgia,Georgia,European,Asia,Western Asia
+Germany,Germany,Germany,European,Europe,Western Europe
+Ghana,Ghana,Ghana,African,Africa,Western Africa
+Gibraltar,NA,NA,NA,NA,NA
+Greece,Greece,Greece,European,Europe,Southern Europe
+Greenland,Greenland,NA,NA,Americas,Northern America
+Grenada,Grenada,Grenada,Americas,Americas,Caribbean
+Guadeloupe,NA,NA,NA,NA,NA
+Guatemala,Guatemala,Guatemala,Americas,Americas,Central America
+Guernsey,NA,NA,NA,NA,NA
+Guinea,Guinea,Guinea,African,Africa,Western Africa
+Guinea-Bissau,Guinea-Bissau,Guinea-Bissau,African,Africa,Western Africa
+Guyana,Guyana,Guyana,Americas,Americas,South America
+Haiti,Haiti,Haiti,Americas,Americas,Caribbean
+Honduras,Honduras,Honduras,Americas,Americas,Central America
+"Hong Kong, China","Hong Kong, China",NA,NA,Asia,Eastern Asia
+Hungary,Hungary,Hungary,European,Europe,Eastern Europe
+Iceland,Iceland,Iceland,European,Europe,Northern Europe
+India,India,India,South-East Asia,Asia,Southern Asia
+Indonesia,Indonesia,Indonesia,South-East Asia,Asia,South-Eastern Asia
+Iran,Iran,Iran,Eastern Mediterranean,Asia,Southern Asia
+Iraq,Iraq,Iraq,Eastern Mediterranean,Asia,Western Asia
+Ireland,Ireland,Ireland,European,Europe,Northern Europe
+Isle of Man,NA,NA,NA,NA,NA
+Israel,Israel,Israel,European,Asia,Western Asia
+Italy,Italy,Italy,European,Europe,Southern Europe
+Jamaica,Jamaica,Jamaica,Americas,Americas,Caribbean
+Japan,Japan,Japan,Western Pacific,Asia,Eastern Asia
+Jersey,NA,NA,NA,NA,NA
+Jordan,Jordan,Jordan,Eastern Mediterranean,Asia,Western Asia
+Kazakhstan,Kazakhstan,Kazakhstan,European,Asia,Central Asia
+Kenya,Kenya,Kenya,African,Africa,Eastern Africa
+Kiribati,Kiribati,Kiribati,Western Pacific,Oceania,Micronesia
+Kosovo,NA,NA,NA,NA,NA
+Kuwait,Kuwait,Kuwait,Eastern Mediterranean,Asia,Western Asia
+Kyrgyz Republic,Kyrgyz Republic,Kyrgyzstan,European,Asia,Central Asia
+Lao,Lao,Lao People's Democratic Republic,Western Pacific,Asia,South-Eastern Asia
+Latvia,Latvia,Latvia,European,Europe,Northern Europe
+Lebanon,Lebanon,Lebanon,Eastern Mediterranean,Asia,Western Asia
+Lesotho,Lesotho,Lesotho,African,Africa,Southern Africa
+Liberia,Liberia,Liberia,African,Africa,Western Africa
+Libya,Libya,Libya,Eastern Mediterranean,Africa,Northern Africa
+Liechtenstein,NA,NA,NA,Europe,Western Europe
+Lithuania,Lithuania,Lithuania,European,Europe,Northern Europe
+Luxembourg,Luxembourg,Luxembourg,European,Europe,Western Europe
+"Macao, China","Macao, China",NA,NA,Asia,Eastern Asia
+Madagascar,Madagascar,Madagascar,African,Africa,Eastern Africa
+Malawi,Malawi,Malawi,African,Africa,Eastern Africa
+Malaysia,Malaysia,Malaysia,Western Pacific,Asia,South-Eastern Asia
+Maldives,Maldives,Maldives,South-East Asia,Asia,Southern Asia
+Mali,Mali,Mali,African,Africa,Western Africa
+Malta,Malta,Malta,European,Europe,Southern Europe
+Marshall Islands,Marshall Islands,Marshall Islands,Western Pacific,Oceania,Micronesia
+Martinique,NA,NA,NA,NA,NA
+Mauritania,Mauritania,Mauritania,African,Africa,Western Africa
+Mauritius,Mauritius,Mauritius,African,Africa,Eastern Africa
+Mayotte,NA,NA,NA,NA,NA
+Mexico,Mexico,Mexico,Americas,Americas,Central America
+"Micronesia, Fed. Sts.","Micronesia, Fed. Sts.",Micronesia,Western Pacific,Oceania,Micronesia
+Moldova,Moldova,Republic of Moldova,European,Europe,Eastern Europe
+Monaco,Monaco,Monaco,European,Europe,Southern Europe
+Mongolia,Mongolia,Mongolia,Western Pacific,Asia,Eastern Asia
+Montenegro,Montenegro,Montenegro,European,Europe,Southern Europe
+Montserrat,NA,NA,NA,Americas,Caribbean
+Morocco,Morocco,Morocco,Eastern Mediterranean,Africa,Northern Africa
+Mozambique,Mozambique,Mozambique,African,Africa,Eastern Africa
+Myanmar,Myanmar,Myanmar,South-East Asia,Asia,South-Eastern Asia
+Namibia,Namibia,Namibia,African,Africa,Southern Africa
+Nauru,Nauru,Nauru,Western Pacific,Oceania,Micronesia
+Nepal,Nepal,Nepal,South-East Asia,Asia,Southern Asia
+Netherlands,Netherlands,Netherlands,European,Europe,Western Europe
+Netherlands Antilles,NA,NA,NA,NA,NA
+New Caledonia,New Caledonia,NA,NA,Oceania,Melanesia
+New Zealand,New Zealand,New Zealand,Western Pacific,Oceania,Australia and New Zealand
+Nicaragua,Nicaragua,Nicaragua,Americas,Americas,Central America
+Niger,Niger,Niger,African,Africa,Western Africa
+Nigeria,Nigeria,Nigeria,African,Africa,Western Africa
+Niue,Niue,Niue,Western Pacific,Oceania,Australia and New Zealand
+North Korea,Democratic People's Republic of Korea,Democratic People's Republic of Korea,South-East Asia,Asia,Eastern Asia
+North Macedonia,"Macedonia, FYR",The former Yugoslav Republic of Macedonia,European,Europe,Southern Europe
+Northern Mariana Islands,NA,NA,NA,NA,NA
+Norway,Norway,Norway,European,Europe,Northern Europe
+Oman,Oman,Oman,Eastern Mediterranean,Asia,Western Asia
+Pakistan,Pakistan,Pakistan,Eastern Mediterranean,Asia,Southern Asia
+Palau,Palau,Palau,Western Pacific,Oceania,Micronesia
+Palestine,West Bank and Gaza,NA,NA,Asia,Western Asia
+Panama,Panama,Panama,Americas,Americas,Central America
+Papua New Guinea,Papua New Guinea,Papua New Guinea,Western Pacific,Oceania,Melanesia
+Paraguay,Paraguay,Paraguay,Americas,Americas,South America
+Peru,Peru,Peru,Americas,Americas,South America
+Philippines,Philippines,Philippines,Western Pacific,Asia,South-Eastern Asia
+Poland,Poland,Poland,European,Europe,Eastern Europe
+Portugal,Portugal,Portugal,European,Europe,Southern Europe
+Puerto Rico,Puerto Rico,NA,NA,Americas,Caribbean
+Qatar,Qatar,Qatar,Eastern Mediterranean,Asia,Western Asia
+Reunion,NA,NA,NA,NA,NA
+Romania,Romania,Romania,European,Europe,Eastern Europe
+Russia,Russia,Russian Federation,European,Europe,Eastern Europe
+Rwanda,Rwanda,Rwanda,African,Africa,Eastern Africa
+Samoa,Samoa,Samoa,Western Pacific,Oceania,Polynesia
+San Marino,San Marino,San Marino,European,Europe,Southern Europe
+Sao Tome and Principe,Sao Tome and Principe,Sao Tome and Principe,African,Africa,Middle Africa
+Saudi Arabia,Saudi Arabia,Saudi Arabia,Eastern Mediterranean,Asia,Western Asia
+Senegal,Senegal,Senegal,African,Africa,Western Africa
+Serbia,Serbia,Serbia,European,Europe,Southern Europe
+Seychelles,Seychelles,Seychelles,African,Africa,Eastern Africa
+Sierra Leone,Sierra Leone,Sierra Leone,African,Africa,Western Africa
+Singapore,Singapore,Singapore,Western Pacific,Asia,South-Eastern Asia
+Slovak Republic,Slovak Republic,Slovakia,European,Europe,Eastern Europe
+Slovenia,Slovenia,Slovenia,European,Europe,Southern Europe
+Solomon Islands,Solomon Islands,Solomon Islands,Western Pacific,Oceania,Melanesia
+Somalia,Somalia,Somalia,Eastern Mediterranean,Africa,Eastern Africa
+South Africa,South Africa,South Africa,African,Africa,Southern Africa
+South Korea,South Korea,Republic of Korea,Western Pacific,Asia,Eastern Asia
+South Sudan,South Sudan,South Sudan,African,Africa,Eastern Africa
+Spain,Spain,Spain,European,Europe,Southern Europe
+Sri Lanka,Sri Lanka,Sri Lanka,South-East Asia,Asia,Southern Asia
+St.-Pierre-et-Miquelon,NA,NA,NA,NA,NA
+St. Helena,NA,NA,NA,NA,NA
+St. Kitts and Nevis,St. Kitts and Nevis,St. Kitts and Nevis,Americas,Americas,Caribbean
+St. Lucia,St. Lucia,St. Lucia,Americas,Americas,Caribbean
+St. Vincent and the Grenadines,St. Vincent and the Grenadines,St. Vincent and the Grenadines,Americas,Americas,Caribbean
+Sudan,Sudan,Sudan,Eastern Mediterranean,Africa,Northern Africa
+Suriname,Suriname,Suriname,Americas,Americas,South America
+Sweden,Sweden,Sweden,European,Europe,Northern Europe
+Switzerland,Switzerland,Switzerland,European,Europe,Western Europe
+Syria,Syria,Syrian Arab Republic,Eastern Mediterranean,Asia,Western Asia
+Taiwan,NA,Chinese Taipei,NA,Asia,Eastern Asia
+Tajikistan,Tajikistan,Tajikistan,European,Asia,Central Asia
+Tanzania,Tanzania,United Republic of Tanzania,African,Africa,Eastern Africa
+Thailand,Thailand,Thailand,South-East Asia,Asia,South-Eastern Asia
+Timor-Leste,Timor-Leste,Timor-Leste,South-East Asia,Asia,South-Eastern Asia
+Togo,Togo,Togo,African,Africa,Western Africa
+Tokelau,NA,NA,NA,NA,NA
+Tonga,Tonga,Tonga,Western Pacific,Oceania,Polynesia
+Trinidad and Tobago,Trinidad and Tobago,Trinidad and Tobago,Americas,Americas,Caribbean
+Tunisia,Tunisia,Tunisia,Eastern Mediterranean,Africa,Northern Africa
+Turkey,Turkey,Turkey,European,Asia,Western Asia
+Turkmenistan,Turkmenistan,Turkmenistan,European,Asia,Central Asia
+Turks and Caicos Islands,NA,NA,NA,Americas,Caribbean
+Tuvalu,Tuvalu,Tuvalu,Western Pacific,Oceania,Polynesia
+Uganda,Uganda,Uganda,African,Africa,Eastern Africa
+Ukraine,Ukraine,Ukraine,European,Europe,Eastern Europe
+United Arab Emirates,United Arab Emirates,United Arab Emirates,Eastern Mediterranean,Asia,Western Asia
+United Kingdom,United Kingdom,United Kingdom,European,Europe,Northern Europe
+United States,United States,United States of America,Americas,Americas,Northern America
+Uruguay,Uruguay,Uruguay,Americas,Americas,South America
+Uzbekistan,Uzbekistan,Uzbekistan,European,Asia,Central Asia
+Vanuatu,Vanuatu,Vanuatu,Western Pacific,Oceania,Melanesia
+Venezuela,Venezuela,Venezuela,Americas,Americas,South America
+Vietnam,Vietnam,Viet Nam,Western Pacific,Asia,South-Eastern Asia
+Wallis et Futuna,NA,NA,NA,NA,NA
+Yemen,Yemen,Yemen,Eastern Mediterranean,Asia,Western Asia
+Zambia,Zambia,Zambia,African,Africa,Eastern Africa
+Zimbabwe,Zimbabwe,Zimbabwe,African,Africa,Eastern Africa
+NA,French Polynesia,NA,NA,Oceania,Polynesia
