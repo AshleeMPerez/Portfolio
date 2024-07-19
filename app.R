@@ -335,7 +335,7 @@ body <- dashboardBody(
             "Bayer Global",
             h4(strong("Process Insights & Analytics Intern")),
             strong("Description:"),
-            "Design novel product solutions for to measure genome sequencing workflows and deployed interactive KPI dashboard through RShiny. Collaborate with cross functional teams to integrate metrics of interest to optimize workflows.",
+            "Design novel product solutions for to measure genome sequencing workflows and deployed interactive KPI dashboard through RShiny. Collected and manipulated multiple genome sequencing data sets utilizing R/RStudio to develop summary files of pertinentdates, KPIs, and project details. Collaborate with cross functional teams to integrate metrics of interest to optimize workflows. Presented data pipeline, product solutions, and app/Dashboard demo to multiple teams, as well as future feature integrations.",
             br(),
           ),
           p(
