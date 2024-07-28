@@ -8,6 +8,7 @@
 # install.packages("plotly")
 # install.packages("DT")
 # install.packages("data.table")
+# install.packages("scales")
 # install.packages("tidyverse")
 library(MetBrewer)
 library(readxl)
@@ -18,6 +19,7 @@ library(rsconnect)
 library(plotly)
 library(DT)
 library(data.table)
+library(scales)
 library(tidyverse)
 
 # Import Data -------------------------------------------------------------
@@ -251,12 +253,15 @@ body <- dashboardBody(
           collapsible = TRUE,
           h4(strong("Greetings! My name is Ashlee.")), 
           p(
-            "Please explore the navigation bar for different coding projects I've collaborated on. I have an educational background in Public Health, Biostatistics, Data Analytics, and Veterinary medicine. I've worked with veterinary clinics, the Florida Department of Health, and the Crop Science department at Bayer Global to collect, manipulate, and visualize data to extract significant findings or actionable insights."
-          ), 
-          br(), 
-          p(
+            "Please explore the navigation bar for different coding projects I've collaborated on. I have an educational background in Public Health, Biostatistics, Data Analytics, and Veterinary medicine. I've worked with veterinary clinics, the Florida Department of Health, and the Crop Science department at Bayer Global to collect, manipulate, and visualize data to extract significant findings or actionable insights.",
             "My strengths are high-level, interactive visualizations, whether that would be for KPI tracking, Health Data Analysis, or simple personal tracking. I enjoy employing coding in my day to day life, whether that is as simple as fitness tracking or as complex as a surprise scenario generator for a dog sport competition. Please ask me anything and I'd be happy to help."
           ),
+          br(),
+          p(
+            style = "padding:0px",
+            h4(strong("Practiced Languages and Tools:")),
+            "R/RStudio (Preferred), RShiny, tidymodels, SAS/SPSS, STATA, SQL, Python, Tableau, AWS, BigQuery",
+          )
         ),
         box(
           title = "Connect with me",
@@ -282,7 +287,7 @@ body <- dashboardBody(
             "Florida International University",
             h4(strong("Master's in Public Health: Biostatistics")),
             strong("Selected Coursework:"),
-            "Biostatistics I, Biostatistics II, SAS Computing Health Science, Epidemiology I, Longitudinal Health Data Analysis, Applied Statistical Methods for Discrete Data",
+            "Biostatistics I/II, Topics in Data Science, R for Health Data Science, SAS Computing Health Science, Longitudinal Health Data Analysis, Survival Data Analysis, Applied Statistical Methods for Discrete Data",
             br(),
           ),
           p(
@@ -293,7 +298,7 @@ body <- dashboardBody(
           p(
             style = "padding:0px",
             "Florida International University",
-            h4(strong("Pre-Veterinary Curriculum")),
+            h4(strong("Bachelors' Degree: Pre-Veterinary Curriculum")),
             strong("Selected Coursework:"),
             "Calculus I, Calculus II, Physics with Calculus, Physics II with Calculus, Organic Chemistry I & II, Microbiology, Biochemistry",
             br(),
@@ -305,7 +310,7 @@ body <- dashboardBody(
           hr(),
           p(
             style = "padding:0px",
-            "Florida International University",
+            "Florida International University: Study Abroad in South Africa",
             h4(strong("One Health, Global Communicable Diseases: An African Exposure")),
             strong("Description:"),
             "A hands-on field course to learn of the history, geography, culture, flora and fauna of South Africa. The One Health perspective provided additional perspective of the modern political, social, and institutional systems which impact regional and national health disparities.",
@@ -313,15 +318,21 @@ body <- dashboardBody(
           ),
           p(
             style = "text-align: right;",
-            "Aug 2014 - Dec 2019"
+            "May 2016"
           ),
           hr(),
           p(
             style = "padding:0px",
-            h4(strong("Practiced Languages and Tools:")),
-            "R/RStudio/RShiny (Preferred), SAS/SPSS, STATA, SQL",
+            "Florida International University Honors College",
+            h4(strong("Bachelors' Degree: Business Management")),
+            "Graduated with Honors distinction and Magna Cum Laude with 3.92/4.00 GPA",
             br(),
           ),
+          p(
+            style = "text-align: right;",
+            "Aug 2012 - Dec 2015"
+          ),
+          
         ),
         box(
           title = "Experience",
@@ -332,51 +343,73 @@ body <- dashboardBody(
           collapsible = TRUE,
           p(
             style = "padding:0px",
-            "Bayer Global",
+            tags$span(
+              tags$div(strong(tags$a(href = "https://www.bayer.com/en/", "Bayer Global")), style = "font-size:18px; line-height: 0.75"),
+              tags$span("May 2024 - Present", style = "float:right")
+            ),
             h4(strong("Process Insights & Analytics Intern")),
-            strong("Description:"),
-            "Design novel product solutions for to measure genome sequencing workflows and deployed interactive KPI dashboard through RShiny. Collected and manipulated multiple genome sequencing data sets utilizing R/RStudio to develop summary files of pertinentdates, KPIs, and project details. Collaborate with cross functional teams to integrate metrics of interest to optimize workflows. Presented data pipeline, product solutions, and app/Dashboard demo to multiple teams, as well as future feature integrations.",
-            br(),
-          ),
-          p(
-            style = "text-align: right;",
-            "May 2024 - Present"
+            # strong("Description:"),
+            p(
+              tags$ul(
+                tags$li("Collected and manipulated multiple genome sequencing data sets (over 900,000 rows) from BigQuery schemas, utilizing R/RStudio to develop summary files of pertinent dates, KPIs, and project details."), 
+                tags$li("Designed novel product solutions to measure genome sequencing workflows and deployed interactive KPI dashboards and applications through RShiny. Deployed product through AWS and Posit Connect, enhancing accessibility and data-driven metrics for multiple teams."), 
+                tags$li("Collaborated with cross functional teams, including lead researchers, laboratory technicians, and data scientists, to present data pipeline, product solutions, and application/dashboard demonstrations, as well as future feature integration.")
+              )
+            ),
+            # br(),
+            hr(),
           ),
           p(
             style = "padding:0px",
-            "Florida Department of Health",
+            tags$span(
+              tags$div(strong(tags$a(href = "https://www.floridahealth.gov/", "Florida Department of Health")), style = "font-size:18px; line-height: 0.75"),
+              tags$span("Jan 2024 - May 2024", style = "float:right")
+            ),
             h4(strong("Applied Epidemiology Intern")),
-            strong("Description:"),
-            "Cleaned, manipulated, and managed large epidemiological data sets using statistical tools (e.g., R, SAS/SPSS, Excel) and created interactive visualizations to communicate public health trends and findings. Independently developed and applied statistical models to interpret health data and support decision-making processes for resource allocation. Hosted presentations on Fatal and Non-fatal Drownings, Risk factors, and Prevention strategies through a community outreach program - Foster Grandparents of Miami. Developed and provided detailed presentation on statistical findings on poison exposure within Miami-Dade County, as well as actionable insights for public health initiatives.",
-            br(),
-          ),
-          p(
-            style = "text-align: right;",
-            "Jan 2024 - May 2024"
+            # strong("Description:"),
+            p(
+              tags$ul(
+                tags$li(strong("Cleaned, manipulated, and managed epidemiological data sets with over 150,000 rows using statistical tools (e.g., R, SAS/SPSS, Excel) and created interactive visualizations to communicate public health trends and findings.")), 
+                tags$li("Independently developed and applied statistical models to interpret health data and support decision-making processes for resource allocation."), 
+                tags$li("Hosted presentations on Fatal and Non-fatal Drownings, Risk factors, and Prevention strategies through a community outreach program - Foster Grandparents of Miami."),
+                tags$li("Developed and provided detailed presentation on statistical findings on poison exposure within Miami-Dade County, as well as actionable insights for public health initiatives.")
+              )
+            ),
+            hr(),
+            # br(),
           ),
           p(
             style = "padding:0px",
-            "Southeast Veterinary Neurology",
+            tags$span(
+              tags$div(strong(tags$a(href = "https://sevneurology.com/", "Southeast Veterinary Neurology")), style = "font-size:18px; line-height: 0.75"),
+              tags$span("Apr 2023 - Jan 2024", style = "float:right")
+            ),
             h4(strong("Patient Care Coordinator")),
-            strong("Description:"),
-            "Independently initiated and currently leading the development of a comprehensive data collection and analysis software to measure and optimize team performance metrics. Employ data visualization tools like Excel and R to present call metric trends and patterns, aiding in data interpretation. Optimize data collection processes, resulting in improved efficiency and a more streamlined approach to gathering essential call metric information.",
-            br(),
-          ),
-          p(
-            style = "text-align: right;",
-            "Apr 2023 - Jan 2024"
+            # strong("Description:"),
+            p(
+              tags$ul(
+                tags$li(strong("Independently initiated and leading the development of a comprehensive data collection and analysis software to measure and optimize team performance metrics.")),
+                tags$li("Employ data visualization tools like Excel and R to present call metric trends and patterns, aiding in data interpretation."),
+                tags$li("Optimize data collection processes, resulting in improved efficiency and a more streamlined approach to gathering essential call metric information.")
+              )
+            ),
+            # br(),
+            hr(),
           ),
           p(
             style = "padding:0px",
-            "Doral Centre Animal Hospital",
+            tags$span(
+              tags$div(strong(tags$a(href = "https://doralvet.com/", "Doral Centre Animal Hospital")), style = "font-size:18px; line-height: 0.75"),
+              tags$span("Nov 2022 - Apr 2023", style = "float:right")
+            ),
             h4(strong("Client Service Representative")),
-            strong("Description:"),
-            "Working alongside healthcare professionals to provide meaningful updates to clients regarding patient care, diagnostic reports, and coordinating continued care. Aide in the betterment of management and workflow processes. Streamlining hospitalization protocol through increased employee and client feedback.  Managed master calendar and scheduled appointments for five providers based on optimal patient loads and clinician availability.",
+            # strong("Description:"),
+            tags$ul(
+              tags$li("Working alongside healthcare professionals to provide meaningful updates to clients regarding patient care, diagnostic reports, and coordinating continued care."),
+              tags$li("Aide in the betterment of management and workflow processes. Streamlining hospitalization protocol through increased employee and client feedback."),
+              tags$li("Managed master calendar and scheduled appointments for five providers based on optimal patient loads and clinician availability.")
+            ),
             br(),
-          ),
-          p(
-            style = "text-align: right;",
-            "Nov 2022 - Apr 2023"
           ),
         )
       ),
@@ -388,10 +421,13 @@ body <- dashboardBody(
           title = "Gapminder",
           solidHeader = TRUE,
           status = "primary",
-          width = 4,
-          "The following visualizations were produced using publically available data through",
-          tags$a(href = "https://www.gapminder.org/", "Gapminder."),
-          "An independent Swedish foundation, which aims to make reliable data readily available to support data-driven interventions.",
+          width = 3,
+          p(
+            "The following visualizations were produced using publicly available data through",
+            tags$a(href = "https://www.gapminder.org/", "Gapminder.")
+          ),
+          p("The bubble chart, for which Gapminder is famously known for, illustrates the trends of average Life Expectancy as it relates to GDP per capita over time. The size of each bubble corresponds to the population size of each country and color represents the country's respective continent."),
+          p("If the line chart is selected, it demonstrates the trend of GDP per capita over time for selected countries (in unique colors). Please hover or click over the graph or legend for more precise insight on values."),
           h5("Use the following filters to subset the data:"),
           selectInput(
             "choice",
@@ -407,6 +443,7 @@ body <- dashboardBody(
               min = min(filtered_gapminder$year),
               max = max(filtered_gapminder$year),
               sep = "",
+              step = 5,
               value = 2013,
               animate = TRUE
             ),
@@ -426,6 +463,7 @@ body <- dashboardBody(
               min = 1900,
               max = year(Sys.Date()),
               sep = "",
+              step = 25,
               value = c(1940, 2013),
               # animate = TRUE
             ),
@@ -453,92 +491,90 @@ body <- dashboardBody(
           )
         ),
         box(
-          title = "Gapminder Table", 
+          title = "Gapminder plot", 
           solidHeader = TRUE,
           status = "primary",
-          width = 8,
-          height = "500px",
-          DTOutput("gapminderTable", height = "400px")
+          width = 9,
+          height = "800px",
+          plotlyOutput("gapminderPlot", height = "700px")
         )
       ),
       fluidRow(
         box(
-          title = "Gapminder plot", 
+          title = "Gapminder Table", 
           solidHeader = TRUE,
           status = "primary",
           width = 12,
-          height = "800px",
-          plotlyOutput("gapminderPlot", height = "700px")
+          height = "90%",
+          DTOutput("gapminderTable", height = "90%")
         )
       )
     ),
     tabItem(
       tabName = "pandemicproj",
       fluidRow(
+      tabBox(
+        title = "Hospital Census across four Florida Counties",
+        id = "tabset",
+        width = 8,
+        height = "800px",
+        tabPanel(
+          "All Counties",
+          plotlyOutput("allCounties_plot", height = "750px")
+        ),
+        tabPanel(
+          "Miami-Dade",
+          plotlyOutput("miamidade_plot", height = "750px")
+        ),
+        tabPanel(
+          "Broward",
+          plotlyOutput("broward_plot", height = "750px")
+        ),
+        tabPanel(
+          "Palm Beach",
+          plotlyOutput("palmbeach_plot", height = "750px")
+        ),
+        tabPanel(
+          "Duval",
+          plotlyOutput("duval_plot", height = "750px")
+        ),
+        # tabPanel(
+        #   "Data Table",
+        #   DTOutput("pandemicTable", height = "700px")
+        # )
+      ), 
         box(
           title = "About the Data",
           solidHeader = TRUE,
           status = "primary",
-          width = 12,
+          width = 4,
+          # height = "90&",
           collapsible = TRUE,
-          # h4(strong("Greetings! My name is Ashlee.")),
           p(
-            "The following visualizations and data tables are aggregated from approximately 386 COVID-19 Community Profile Reports from 2020 to 2022. More information about this data can be read",
+            "The following visualizations and data table were aggregated from approximately 386 COVID-19 Community Profile Reports from 2020 to 2022. More information about this data can be read",
             tags$a(href = "https://healthdata.gov/Health/COVID-19-Community-Profile-Report/gqxm-d9w9", "here."),
             "Wrangling steps are provided through my Github repository, which can be accessed",
             tags$a(href = "https://github.com/AshleeMPerez/COVIDProject", "here."),
             "Below the plot and data table, you may read an excerpt of the interpretations written explaining trends seen below."
           ),
-        )
-      ),
-      fluidRow(
-      tabBox(
-        title = "Hospital Census across four Florida Counties",
-        id = "tabset",
-        width = 8,
-        height = "900px",
-        tabPanel(
-          "All Counties",
-          plotlyOutput("allCounties_plot", height = "800px")
-        ),
-        tabPanel(
-          "Miami-Dade",
-          plotlyOutput("miamidade_plot", height = "800px")
-        ),
-        tabPanel(
-          "Broward",
-          plotlyOutput("broward_plot", height = "800px")
-        ),
-        tabPanel(
-          "Palm Beach",
-          plotlyOutput("palmbeach_plot", height = "800px")
-        ),
-        tabPanel(
-          "Duval",
-          plotlyOutput("duval_plot", height = "800px")
-        )
-      ), 
-        box(
-          title = "Hospital Census table",
-          solidHeader = TRUE,
-          status = "primary",
-          width = 4,
-          height = "900px",
-          collapsible = TRUE,
-          DTOutput("pandemicTable", height = "700px")
+          hr(),
+          h5(strong("Interpretations:")),
+          p("As seen in the adjacent graph, trends among number of occupied hospital beds over time can be visualized for four Florida counties of varying population size. The size of each circle represents the total number of available hospital beds and serves as a visual scale factor to more appropriately compare the differing population sizes between counties. For example, Miami-Dade County has a population of approximately 2.8 million, while Duval County is approximately 55,000."),
+          # br(),
+          p("Most notably, around February to April 2022, drastic drops can be seen in reporting hospitals across Florida, which presents a complex and multifaceted phenomenon, which may be influenced by CCN status, regulatory changes, socioeconomic conditions, and/or political tensions. While closures or mergers of hospitals may account for some of the observed decreases, the implications of these trends for public health are profound."), 
+          p("Missing data can be seen within the table below toward the minimum and maximum date ranges available due to delays in reporting practices for COVID Positvity rates, Hospital Admissions, and resource allocation as it relates to the Hospital Census.")
         )
       ),
       fluidRow(
         box(
-          title = "Interpretations",
+          title = "About the Data",
           solidHeader = TRUE,
           status = "primary",
           width = 12,
+          # height = "90&",
           collapsible = TRUE,
-          "The COVID-19 pandemic was an unprecedented challenge to global healthcare systems, emergency response infrastructure, and preparedness efforts. This underscored the critical importance of robust public health agendas in addressing emerging infectious diseases and safeguarding population health. The pandemic revealed vulnerabilities within healthcare systems, highlighted disparities in access to healthcare, and emphasized the need for proactive measures to mitigate the spread of infectious diseases and protect public health. During the pandemic, the Data Strategy and Execution Workgroup was included among a specialized COVID-19 response team to generate Community Profile Reports (CPR) to aggregate nation-wide data on COVID-19 mortality, transmission, and hospitalizations across varied geographical regions. From 386 Community Profile reports, information from Miami-Dade County, Broward County, Palm Beach County, and Duval County were extracted to analyze: 1) Daily Proportion of Positive COVID-19 tests, 2) Daily Census of Hospital Patients for any cause, 3) Daily Count of COVID-19 Hospital Admissions. RT-PCR COVID-19 Postivity rates are missing 4 observations from August 24, 2021, and 72 observations from ‘Daily Hospital Census’ and ‘Daily COVID-19 Hospital Admissions’ due to delays in reporting throughout the month of December 2020 and subsequent decreases in reporting in July 2022. A finalized data set is available to further analysis within this document. The primary objective of this analysis was to examine inflections on trends, discernible points of strain or relief on Hospital Patient Census for any cause, which in turn may identify periods of heightened demand, periods of relative stability or decline, or provide perspective on the dynamic environment of the COVID-19 pandemic.",
-          br(),
-          br(),
-          "Many points of inflection in hospital patient census for any cause may be attributed to surges in COVID-19 spread. These surges lead to increased hospitalizations of individuals with severe COVID-19 symptoms, placing significant strain on healthcare systems and resulting in fluctuations. During periods of high transmission rates and surges in cases, hospitals experience a surge in admissions of COVID-19 patients requiring intensive care, mechanical ventilation, or other critical medical interventions. These influxes of COVID-19 patients can quickly overwhelm healthcare facilities, leading to capacity constraints, shortages of medical resources, and challenges in providing timely and adequate care to all patients. As discussed, drastic drops in reporting hospitals across Florida present a complex and multifaceted phenomenon influenced by changes in CCN status, regulatory changes, socioeconomic conditions, and political tensions. While closures or mergers of hospitals may account for some of the observed decreases, understanding nuanced rationale behind these changes is challenging amidst a backdrop of systemic strain, regulatory uncertainty and political conflict. The implications of these trends for public health are profound. Decreases in reporting hospitals may hinder the availability and accuracy of healthcare data, impacting the ability to monitor health outcomes, assess healthcare utilization, and inform policy decisions. This could compromise the effectiveness of public health interventions, resource allocation efforts, and pandemic response strategies. Additionally, disparities in healthcare access and service availability may exacerbate existing health inequities, disproportionately affecting vulnerable populations and under-served communities. Addressing these challenges requires a coordinated and multidisciplinary approach involving collaboration between healthcare providers, policymakers, public health agencies, and community stakeholders. Efforts to strengthen healthcare infrastructure, improve data collection and reporting mechanisms, and enhance transparency and accountability in healthcare delivery are essential. Moreover, initiatives to address underlying socioeconomic determinants of health, promote health equity, and foster resilience within the healthcare system are critical for building a more robust and responsive public health infrastructure to future disease outbreaks."
+            DTOutput("pandemicTable", height = "700px")
+          
         )
       )
     ),
@@ -731,18 +767,35 @@ server <- function(input, output) {
   })
   
   
-  output$gapminderTable <- renderDataTable(
+  output$gapminderTable <- renderDataTable({
     
-    if (input$choice == "line"){
-      gapminder_lineChart()
-    }
-    else {
-      gapminder_dateRange()
-    },
+    tbl_output <- gapminder_tbl() %>%
+      mutate(
+        population = format(population, scientific = TRUE, digits = 3),
+        gdp = format(gdp, scientific = TRUE, digits = 3),
+        gdp_per_capita = round(gdp_per_capita, digits = 3)
+      )
     
-    rownames = FALSE, 
-    options = list(scrollX = TRUE, scrollY = 300)
-  )
+    datatable(
+      tbl_output,
+      # gapminder_tbl(),
+    # if (input$choice == "line"){
+    #   gapminder_lineChart()
+    # }
+    # else {
+    #   gapminder_dateRange()
+    # },
+    
+      rownames = FALSE, 
+      options = list(
+        scrollX = TRUE, 
+        scrollY = 300,
+        columnDefs = list(
+          list(className = 'dt-center', targets = 0:9)
+        )
+      )
+    )
+  })
   
   
   output$downloadcsv <- downloadHandler(
@@ -819,8 +872,18 @@ server <- function(input, output) {
     
   })
   
+  pandemicProject_tbl <- pandemicProject_df %>% 
+    mutate(
+      Population = format(Population, big.mark = ","),
+      PCR_Positive_Tests = format(PCR_Positive_Tests, big.mark = ","),
+      PCR_Total_Tests = format(PCR_Total_Tests, big.mark = ","),
+      COVID_Total_Admissions = round(COVID_Total_Admissions, digits = 3),
+      Beds_Occupied_Total = round(Beds_Occupied_Total, digits = 3),
+    )
+  
   output$pandemicTable <- renderDT(
-    pandemicProject_df,
+    
+    pandemicProject_tbl,
     rownames = FALSE, 
     options = list(scrollX = TRUE, scrollY = 650)
     
@@ -895,6 +958,7 @@ server <- function(input, output) {
         date_breaks = "1 month",
         date_labels = "%b"
       ) +
+      # coord_cartesian(ylim = c(2000, max(montxhly_sales$totalSales)))
       labs(
         title = "Monthly Sales across all Menu Items for ABC Pizzeria",
         y = "Number of Pizzas Sold"
